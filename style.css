@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-color: #0b1121;
+  --main-color: #fef200;
+}
+body {
+  position: relative;
+  background-color: var(--bg-color);
+  height: 100vh;
+  overflow: hidden;
+}
+.colored-div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 40px 0 20px 0;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background: var(--main-color);
+}
+
+.colored-div .hero-img {
+  margin-top: -10.625rem;
+}
+.colored-div .items {
+  max-width: 71.25rem;
+  margin-inline: auto;
+  text-align: center;
+}
+.colored-div .hero-title {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: -2.5rem;
+}
+.colored-div .hero-desc {
+  margin-top: 0.8rem;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.7rem;
+}
+.hero-desc b {
+  font-size: 1.5rem;
+}
+.icons {
+  margin-top: 1.2rem;
+}
+.icons a {
+  text-decoration: none;
+}
+
+.icons a i {
+  transition: 0.2s;
+  color: var(--bg-color);
+  font-size: 1.6rem;
+  margin-inline: 0.5rem;
+}
+.icons a:hover i {
+  transform: scale(1.2);
+}
